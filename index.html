@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOHCHLAT FILM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-image: 
+        linear-gradient(to right, rgba(0, 0, 255, 0.2) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 255, 0.2) 1px, transparent 1px);
+      background-size: 1.5cm 1.5cm;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+    header {
+      background: #ffffffcc;
+      padding: 60px 20px 40px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+    header em {
+      display: block;
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+    nav {
+      background: #f8f8f8;
+      padding: 15px 0;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 60px 30px;
+      max-width: 1200px;
+      margin: auto;
+      background-color: #ffffffcc;
+    }
+    section {
+      margin-bottom: 80px;
+    }
+    section h2 {
+      font-size: 2em;
+      font-family: 'Playfair Display', serif;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+    }
+    .poster {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .poster-item {
+      background: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .poster-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .poster-item p {
+      margin-top: 10px;
+      font-size: 0.95em;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 30px 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NOHCHLAT FILM</h1>
+    <em>Under the patronage of the Chechen Republic of Ichkeria</em>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#posters">Posters</a>
+    <a href="#voices">Chechen Voices</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        NOHCHLAT FILM is a cinema initiative created in exile, under the patronage of the Chechen Republic of Ichkeria.
+        Our mission is to produce and promote films that uphold truth — whether through documentary, poetic, symbolic or metaphorical expression.
+        We believe that art can reflect resistance, remembrance, and resilience. Each work is a tribute to real human experience, culture, and justice.
+      </p>
+    </section>
+
+    <section id="posters">
+      <h2>Posters</h2>
+      <div class="poster">
+        <div class="poster-item">
+          <img src="posters/Pirosmani_film_poster.jpg" alt="Pirosmani">
+          <p><strong>Pirosmani (1969)</strong><br>Directed by Giorgi Shengelaia. A poetic biography of Georgian painter Niko Pirosmani.</p>
+        </div>
+        <div class="poster-item">
+          <img src="posters/Pokayanie_poster.jpg" alt="Repentance">
+          <p><strong>Repentance (1984)</strong><br>An allegory of totalitarianism and remembrance. Banned in the USSR, praised worldwide.</p>
+        </div>
+        <div class="poster-item">
+          <img src="posters/shadows-ancestors.jfif" alt="Shadows of Forgotten Ancestors">
+          <p><strong>Shadows of Forgotten Ancestors (1965)</strong><br>Sergei Parajanov’s folkloric masterpiece. A tribute to Ukrainian Hutsul culture.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="voices">
+      <h2>Chechen Voices in Cinema</h2>
+      <p>
+        An evolving collection of films featuring Chechen cultural voices — including directors, actors, writers, and stories reflecting Chechen identity and struggle.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        For inquiries, collaboration, or questions:<br>
+        <strong>Email:</strong> <a href="mailto:contact@nohchlat.art">contact@nohchlat.art</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    All content © NOHCHLAT FILM
+  </footer>
+</body>
+</html>
